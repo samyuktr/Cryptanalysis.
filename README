@@ -35,6 +35,6 @@ keygen.c --> generates *.keys files.
 crypt.c ---> converts text to cipher text using  corresponding *.keys file. 
 invkey.c --> computes inverse key given the key file. 
 histogram.c ---> computes histogram functionality. 
-solve.c ---> does solve functionality. 
+solve.c ---> does solve functionality. a. Kasiski's method b. Average index of coincedence c. Auto correlation method. 
 
 
