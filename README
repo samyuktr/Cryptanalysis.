@@ -1,0 +1,42 @@
+
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+
+
+Please run the scripts provided by the professor. 
+
+Part (A) keygen : All cases running. (20) 
+Part (B) invkey : All cases running. (10)
+Part (C) crypt : All cases running. (20)
+Part (D) together : All cases are running (10)
+Part (E) histogram : All cases running. (20)
+Part (F) solve : All cases are running. (20) - (Runs little slowly for f3, f4 and f5 - please wait for a few seconds for file to process.)
+
+
+
+No segmentation faults. 
+No warnings. 
+All malformed commands handled. 
+
+run make clean to remove .o and the executables.
+
+Files in the zip - 
+
+Makefile ---> used for make command. 
+main.c ---> main function - handles command line. 
+hw3.h ---> header files with function definition. 
+keygen.c --> generates *.keys files.
+crypt.c ---> converts text to cipher text using  corresponding *.keys file. 
+invkey.c --> computes inverse key given the key file. 
+histogram.c ---> computes histogram functionality. 
+solve.c ---> does solve functionality. 
+
+
