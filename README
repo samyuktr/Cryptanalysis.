@@ -5,26 +5,24 @@
 
 Comments: make
 
-+---------+
-|TESTCASES|
-+---------+
-
-
-
 Please run the scripts provided by the professor. 
 
-Part (A) keygen : All cases running. (20) 
-Part (B) invkey : All cases running. (10)
-Part (C) crypt : All cases running. (20)
-Part (D) together : All cases are running (10)
-Part (E) histogram : All cases running. (20)
-Part (F) solve : All cases are running. (20) - (Runs little slowly for f3, f4 and f5 - please wait for a few seconds for file to process.)
+Part (A) keygen 
+Part (B) invkey
+Part (C) crypt 
+Part (D) together
+Part (E) histogram 
+Part (F) solve 
 
 
 
-No segmentation faults. 
-No warnings. 
-All malformed commands handled. 
+Commands to run - 
+
+    hw3 keygen -p=pphrase -t=period
+    hw3 crypt -k=keyfile [file]
+    hw3 invkey keyfile
+    hw3 histo -t=period -i=which [file]
+    hw3 solve -l=max_t file 
 
 run make clean to remove .o and the executables.
 
